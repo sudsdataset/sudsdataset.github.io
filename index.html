@@ -4,6 +4,15 @@
 <head>
   <title>SUDS Dataset</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+    h1 {text-align: center;}
+    h2 {text-align: center;}
+    nav {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+    ul {text-align: center; list-style-position: inside;}
+    table.center {margin-left:auto; margin-right:auto;}
+    </style>
 </head>
 
 <body>
@@ -13,40 +22,43 @@
   </nav>
   <h1>SUDS Dataset</h1>
   <nav>
-    <ul>
-      <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#donations">Donations</a></li>
-      <li><a href="#media">Media</a></li>
-    </ul>
+    <a href="#introduction">Introduction</a><br>
+    <a href="#brands">Brands</a><br>
+    <a href="#donations">Donations</a><br>
+    <a href="#media">Media</a><br>
   </nav>
   
   <div id="introduction">
     <h2>About Our Dataset</h2>
-    <p>Our dataset contains 10 brands of liquid dishwater detergent. <br><br> For comparison, we have also tested 10 clear tap water samples.</p>
-    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
-    <h3>Brands Included</h3>
-    <ul>
-      <li>Always Save</li>
-      <li>Cascade</li>
-      <li>Dawn</li>
-      <li>Finish</li>
-      <li>Gain</li>
-      <li>Kirkland (liquid)</li>
-      <li>Kirkland (solid)</li>
-      <li>Seventh Generation</li>
-      <li>Sprouts</li>
-      <li>Up&Up</li>
-    </ul>
+    <p>Our dataset contains 10 brands of liquid dishwater detergent. For comparison, we have also tested 10 clear tap water samples.</p>
+
+  <div id="brands">
+    <h2>Brands Included</h2>
+    <table class="center">
+      <tr>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://alwayssavebrand.com/wp-content/themes/bestchoice/img/logo-AS-2018.png" alt="Always Save"></th>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="data:image/jpeg;base64,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" alt="Cascade"></th>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://seeklogo.com/images/D/dawn-logo-E02377507B-seeklogo.com.png" alt="Dawn"></th>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://www.trickedbythelight.com/tbtl/images/electrsolLogo.jpg" alt="Electrasol"></th>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://logos-download.com/wp-content/uploads/2019/07/Finish_Logo.png" alt="Finish" height="131"></th>
+      </tr>
+      <tr>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://seeklogo.com/images/G/gain-logo-6B4FAF89F1-seeklogo.com.png" alt="Gain"></th>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012014/kirkland_0.png?itok=8gZJO4r6" alt="Kirkland"></th>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://media3.webcollage.net/b12dd1de8fc56b7ff433a653a5a36b90286b7372?response-content-type=image%2Fjpeg&AWSAccessKeyId=AKIAIIE5CHZ4PRWSLYKQ&Expires=1893523839&Signature=rg8aL%2BT7XjyBBYC2RwFhU8FVfPo%3D" alt="Seventh Generation" height="150"></th>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://www.sprouts.com/wp-content/uploads/2020/03/sprouts-logo.png" alt="Sprouts"></th>
+        <th><a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://bus265macymaxson.files.wordpress.com/2015/01/upup_logo.gif" alt="Up&Up"></th>
+      </tr>
+    </table>
+  </div>
 
   <div id="donations">
     <h2>Donations</h2>
-    <p>If you'd like to contribute to exapnding our dataset, please consider donating samples of dish detergent!</p>
+    <p>If you'd like to contribute to expanding our dataset, please consider donating samples of dish detergent!</p>
   </div>
     
   <div id="media">
     <h2>Media</h2>
-    <a href="https://en.wikipedia.org/wiki/Brown_bear"><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="Brown Bear"></a>
-    <br>
     <video src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
   </div>
   <p id="text"></p>
